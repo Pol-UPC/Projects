@@ -1,0 +1,3 @@
+
+
+Esta carpeta contiene los ficheros .class y .jar necessarios para ejecutar el programa.

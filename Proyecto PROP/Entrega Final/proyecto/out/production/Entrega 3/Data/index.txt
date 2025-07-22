@@ -1,0 +1,15 @@
+
+Esta carpeta contiene:
+
+- /Data: Carpeta dedicada a la persistencia del sistema
+
+    - /Usuarios: -> Se encuentran las carpetas de persistencia de cada usuario. Estas carpetas tienen la estructura siguiente:
+
+            XXXX(carpeta con el nombre de usuario)
+             │
+             ├──/Estado -> Carpeta donde se guarda el estado actual de la estanteria
+             │
+             └──/Productos -> Carpeta donde se guarda un grupo de productos
+
+    - imput_users.txt -> Se trata de un fichero dedicado a la persistencia de usuarios el cuál tiene el siguiente
+    formato: XXXX (Nombre de usuario)  XXXX (contraseña codificada) XXXX (Rol del usuario)

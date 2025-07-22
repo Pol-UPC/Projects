@@ -1,0 +1,11 @@
+
+Esta carpeta contiene:
+
+- Autoria de la entrega
+- Manual de Usuario
+- Info professor
+
+    En este archivo podemos encontrar la documnetacion final de la assignatura complementada con un Javadoc.
+    También tenemos un manual de usuario donde se encuentra toda la informacion relativa a la ejecucion visual del programa
+    En el archivo de Info professor encontraras informacion util para la primera ejecución del programa.
+

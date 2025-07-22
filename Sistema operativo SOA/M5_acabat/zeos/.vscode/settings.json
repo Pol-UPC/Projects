@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "interrupt.h": "c",
+        "io.h": "c",
+        "p_stats.h": "c",
+        "devices.h": "c"
+    }
+}

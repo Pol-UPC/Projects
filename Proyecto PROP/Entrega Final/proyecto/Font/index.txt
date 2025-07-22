@@ -1,0 +1,94 @@
+
+Esta carpeta contiene: (Para consultar las funcionalidades de cada clase ir a la documentacion y consultar JavaDoc)
+
+- /classes
+    Esta carpeta contiene las distintas clases del proyecto:
+        - AlgoritmoAproximadoKruskal.java
+        - AlgoritmoFuerzaBruta.java
+        - AlgoritmoOrdenacion.java
+        - EstanteriaOrdenada.java
+        - GestorAlgoritmo.java
+        - GestorEstanteria.java
+        - GestorProductos.java
+        - GestorSimilitudes.java
+        - GestorUsuarios.java
+        - Producto.java
+        - ResultadoAlgoritmo.java
+        - Similitud.java
+        - Usuario.java
+
+- /datacontrollers
+    Esta carpeta contiene las distintas clases de controladores de datos
+     - DataController.java
+     - DataUsersController.java
+     - GestorCargaGuardadoJSON.java
+     - GestorDiretoriosUsuario.java
+
+- /domaincontrollers
+    Esta carpeta contiene las distintas clases de controladores de dominio del proyecto:
+        - ControladorAlgoritmo.java
+        - ControladorEstanteria.java
+        - ControladorProductos.java
+        - ControladorSimilitudes.java
+        - ControladorUsuarios.java
+        - DomainCtrl.java
+
+- /Exceptions 
+    Esta carpeta contiene las  distintas clases de excepciones: 
+        - MismoNombre.java
+        - NoExisteControlador.java
+        - NoExisteNingunProducto.java
+        - NoExisteProducto.java
+        - SimilitudDeProductoNoExistente.java
+        - SimilitudMismoProducto.java
+        - StringVacia.java
+        - ValorSimilitudFueraRango.java
+        - YaExisteProducto.java
+
+- /forms
+    Esta carpeta contiene las distintas clases y ficheros .form asociados a el diseño de la parte gráfica
+        - CambiarProdWindow.java/form
+        - CambiarSimWindow.java/form
+        - LoginWindow.java/form
+        - LogRegWindow.java/form
+        - MainWindow.java/form
+        - MainWindowEmpleado.java/form
+        - RegisterWindow.java/form
+
+- /Presentation 
+    Esta carpeta contiene una carpeta de imagenes recurso y todas las clases auxiliares y controladores de presentacion
+        - /image_src -> Carpeta de imagenes recurso
+        - ControladorPresentacion.java
+        - GrafoProductos.java
+        - MenuBarra.java
+        - MenuGraficoEstanteria.java
+        - MenuGraficoGenerico.java
+        - MenuGraficoSimilitudes.java
+        - MiMouseListener.java
+        - RoundButtons.java
+        - VentanaPrincipal.java
+
+- /Tests
+    Esta carpeta contiene las clases de test unitarios
+        - AlgoritmoAproximadoKruskalTest.java
+        - AlgoritmoFuerzaBrutaTest.java
+        - EstanteriaOrdenadaTest.java
+        - GestorAlgoritmoTest.java
+        - GestorEstanteriaTest.java
+        - GestorSimilitudesTest.java
+        - GestorUsuariosTest.java
+        - GrupoEstanteriaOrdenadaTestSuite.java
+        - GrupoSimilitudesTestSuite.java
+        - SimilitudesTest.java
+        - UsuarioTest.java
+
+
+- Main.java
+
+- MainVisual.java
+
+- manifest.txt  
+    Este fichero es necessario para ejecutar el makefile
+
+- manifest_visual.txt
+    Este fichero es necessario para ejecutar el makefile

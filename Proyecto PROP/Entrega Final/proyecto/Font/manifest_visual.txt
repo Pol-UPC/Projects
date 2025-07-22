@@ -1,0 +1,2 @@
+Main-Class: Font.MainVisual
+Class-Path: ../lib/json-simple-1.1.1.jar ../lib/forms_rt.jar

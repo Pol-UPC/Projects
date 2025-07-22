@@ -1,0 +1,30 @@
+Este es un juego de pruebas generalista que testea todas las funcionalidades principales por encima.
+Prueba algunos errores, creando productos y gestionando la estanteria.
+Al final hace un par de ordenaciones de prueba.
+
+Primero intenta usar funciones que no existen (la funcion 100 y la -1).
+Solo hay funciones del 0 al 13 así que debe de dar error.
+
+Luego genera un producto con nombre a, y intenta volver a generar un 
+producto llamado a, como ya existe un producto a, ese debería dar error.
+
+Procede a generar otros 4 productos: b,c,d y e.
+
+A partir de aquí el juego irá usando la función listar productos y listar similitudes intermitentemente.
+
+Entonces se cambia el nombre del producto e a j, y luego el de e a a.
+Como e ya no existe porque el previo producto llamado e ahora se llama j, también dará un error esta segunda función.
+
+A continuación, cambia el nombre del producto j a a. 
+Aunque j si que existe, como a es un producto existente, no se puede cambiar el nombre a ese.
+
+Terminando en cuanto a cambios de nombre, prueba a cambiar a a x y luego x de vuelta a a.
+
+Entonces intenta borrar j y luego e, la primera lo borra, la segunda dará error porque e no existe.
+
+A partir de aquí también se irán listando las similitudes de vez en cuanto para ver su evolución en la consola.
+
+Se ponen las similitudes entre todos los productos, incluyendo un intento de poner una similitud negativa, el cual debe dar error.
+
+Finalmente se hacen dos ordenaciones con los dos algoritmos (que deben dar por encima del valor mínimo 246).
+Entre medio de las dos ordenaciones se hace un intercambio entre dos productos para probar esa funcionalidad también.
