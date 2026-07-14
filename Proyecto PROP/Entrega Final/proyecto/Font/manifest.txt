@@ -1,2 +1,0 @@
-Main-Class: Font.Main
-Class-Path: ../lib/json-simple-1.1.1.jar
